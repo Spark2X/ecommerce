@@ -66,11 +66,16 @@
         Google+</a>
     </div>
     <!-- /.social-auth-links -->
-
-    <a href="/admin/forgot">I forgot my password</a><br>
-    <a href="register.html" class="text-center">Register a new membership</a>
-
-  </div>
+    <div class="row">
+      <div class="col-xs-9">
+        <a href="/admin/forgot">I forgot my password</a><br>
+        <a href="register.html" class="text-center">Register a new membership</a> 
+      </div>
+      <button class="col-lg-2 btn btn-danger"><a href="..">Store</a></button></td>
+    </div>
+   
+      
+   
   <!-- /.login-box-body -->
 </div>
 <!-- /.login-box -->

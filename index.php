@@ -17,15 +17,6 @@ require_once("admin-forgot.php");
 require_once("admin-categories.php");
 require_once("admin-products.php");
 
-$app->get("/teste", function(){
-
-
-    print_r($_FILES['name']);
-
-});
-
-
-
 $app->run();
 
 ?>
